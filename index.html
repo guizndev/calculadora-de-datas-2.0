@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Prescrição de Infrações</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Prescrição de Infrações</h1>
+        <div class="card">
+            <div class="input-group">
+                <label for="data-inicial">Data da infração:</label>
+                <input type="text" id="data-inicial" maxlength="10" placeholder="DD/MM/AAAA">
+            </div>
+            <button id="calcular">Calcular Prescrição</button>
+            <div class="resultado-container">
+                <div id="resultados">
+                    <div class="resultado" id="resultado-1"></div>
+                    <div class="resultado" id="resultado-2"></div>
+                    <div class="resultado" id="resultado-3"></div>
+                </div>
+            
+            
+            </div>
+        </div>
+        <footer>
+            <p>Desenvolvido por [Controladoria-SES ] &copy; 2024</p>
+        </footer>
+    </div>
+    <div class="observacao-container">
+        <div class="observacao">
+            <p>As datas entre 02/08 até 03/09 não estão corretas.</p>
+        </div>
+        <div class="informacao-container">
+            <p>Para resolver a data após 140 dias de suspensão, está sendo mostrada,<br> conte quantos dias faltam até o dia 21/01 e some com a data final.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

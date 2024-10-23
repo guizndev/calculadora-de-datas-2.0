@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a; /* Cor de fundo escura mais suave */
+    color: #e0e0e0; /* Cor do texto clara e suave */
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Cor do título clara */
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #2a2a2a; /* Cor de fundo da card mais suave */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra mais suave */
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #e0e0e0; /* Cor do texto do rótulo clara */
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #7f7f7f; /* Cor da borda do input */
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    background-color: #3a3a3a; /* Cor de fundo do input */
+    color: #ffffff; /* Cor do texto do input */
+}
+
+input:focus {
+    outline: none;
+    border-color: #b0b0b0; /* Cor da borda ao focar */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #5a5a5a; /* Cor do botão em cinza */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a4a4a; /* Cor do botão ao passar o mouse */
+}
+
+#resultados {
+    margin-top: 1.5rem;
+}
+
+.resultado {
+    background-color: #4a4a4a; /* Cor de fundo dos resultados em cinza */
+    border: 1px solid #7f7f7f; /* Cor da borda dos resultados */
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #b0b0b0; /* Cor do texto do rodapé */
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+.observacao-container {
+    background-color: #2a2a2a; /* Cor de fundo escura mais suave */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-top: 1rem; /* Espaçamento acima da observação */
+}
+
+.observacao {
+    border: 2px solid #b0b0b0; /* Cor da borda chamativa */
+    background-color: #3a3a3a; /* Cor de fundo (cinza escuro) */
+    padding: 1rem;
+    border-radius: 4px;
+    color: #ffffff; /* Cor do texto em branco */
+    transition: transform 0.3s; /* Transição suave para o efeito */
+}
+
+.observacao:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do retângulo ao passar o mouse */
+}
+
+.informacao-container {
+    background-color: #4a4a4a; /* Cor de fundo (cinza médio) */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-top: 1rem; /* Espaçamento acima da informação */
+    color: #ffffff; /* Cor do texto em branco */
+    transition: transform 0.3s; /* Transição suave para o efeito */
+}
+
+.informacao-container:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do retângulo ao passar o mouse */
+}
